@@ -23,7 +23,7 @@ if st.button('submit'):
     
     st.image(test)
     
-    genai.configure(api_key="AIzaSyCQFsg0hTQDybKjs_MsanVSRayp-K9fx0Q")
+    genai.configure(api_key="KEY visit https://aistudio.google.com/app/api-keys to get yours")
     model = genai.GenerativeModel('gemini-2.5-flash')
     book_file = genai.upload_file(path="ثاني اعدادي 1.pdf", display_name="Textbook")
     
